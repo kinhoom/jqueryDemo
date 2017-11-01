@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		(function(){
+			var jquery=window.jquery=function(selector,context){
+				return new jquery.prototype.init(selector,context);
+			}
+			 jquery.fn=jquery.prototype={
+				init:function(selector,context){
+					return this
+				}
+			}
+			jquery.prototype.init.prototype=jquery.prototype;
+		})()
+	</script>
+</head>
+<body>
+</body>
+</html>
